@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image: url(/voltran.jpg)
+}
+
+/* height: 100vh */
+
+h1{
+margin: 20px 0px;
+text-align: center;
+}
+
+form{
+background-color:pink ;
+width: fit-content;
+padding: 30px;
+margin: 20px, auto;
+margin-inline: auto;
+border-radius: 50px;
+}
+
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+.language-div,
+.gender-div{
+display: inline-block;
+}
+.language-div label,
+.gender-div label{
+    width: auto;
+}
+
+.inputs{
+border-radius: 5px;
+width: 300px;
+padding: 10px;
+margin-bottom: 10px;
+border: 10px solid rgba(0, 0, 0, 0,3);
+}
+
+.radio-check{
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+.btn-container{
+    text-align: center;
+}
+.btn-container input{
+width: 100px;
+border-radius: 10px;
+padding: 10px;
+background-color: rgba(9, 18, 150, 0.39);
+}
+
+.btn-container input:hover{
+background-color: rgb(9, 148, 78);
+color: yellow;
+font-weight: 7000;
+cursor: pointer;
+}
+
+.textarea-div * {
+    vertical-align: middle;
+}
